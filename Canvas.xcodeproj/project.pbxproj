@@ -10,12 +10,12 @@
 		209D93391855A641422DD913 /* Pods_CanvasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38E1B2D5C6600A0C27ADB0 /* Pods_CanvasUITests.framework */; };
 		69F2D230C1BDDC5613467916 /* Pods_Canvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53B1C8EC6D7624C554509D /* Pods_Canvas.framework */; };
 		A7F97894218035B000D46F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F97893218035B000D46F02 /* AppDelegate.swift */; };
-		A7F97896218035B000D46F02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F97895218035B000D46F02 /* ViewController.swift */; };
 		A7F97899218035B100D46F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F97897218035B100D46F02 /* Main.storyboard */; };
 		A7F9789B218035B200D46F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F9789A218035B200D46F02 /* Assets.xcassets */; };
 		A7F9789E218035B200D46F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F9789C218035B200D46F02 /* LaunchScreen.storyboard */; };
 		A7F978A9218035B200D46F02 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F978A8218035B200D46F02 /* CanvasTests.swift */; };
 		A7F978B4218035B200D46F02 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F978B3218035B200D46F02 /* CanvasUITests.swift */; };
+		A7F978C2218038E500D46F02 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F978C1218038E500D46F02 /* CanvasViewController.swift */; };
 		CB8B4FD91009BAF5597B167A /* Pods_CanvasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0399EC52C3F147556AF004C /* Pods_CanvasTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +44,8 @@
 		830C5C9F1E4D3147F2E6CB7E /* Pods-Canvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Canvas/Pods-Canvas.release.xcconfig"; sourceTree = "<group>"; };
 		A7F97890218035B000D46F02 /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F97893218035B000D46F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7F97895218035B000D46F02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7F97898218035B100D46F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7F9789A218035B200D46F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F9789A218035B200D46F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Canvas/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		A7F9789D218035B200D46F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F9789F218035B200D46F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F978A4218035B200D46F02 /* CanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +54,7 @@
 		A7F978AF218035B200D46F02 /* CanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F978B3218035B200D46F02 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		A7F978B5218035B200D46F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F978C1218038E500D46F02 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 		D0581B7062B3FBAEC72CA6AB /* Pods-CanvasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasTests/Pods-CanvasTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB38E1B2D5C6600A0C27ADB0 /* Pods_CanvasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0399EC52C3F147556AF004C /* Pods_CanvasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,8 +127,8 @@
 		A7F97892218035B000D46F02 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				A7F978C1218038E500D46F02 /* CanvasViewController.swift */,
 				A7F97893218035B000D46F02 /* AppDelegate.swift */,
-				A7F97895218035B000D46F02 /* ViewController.swift */,
 				A7F97897218035B100D46F02 /* Main.storyboard */,
 				A7F9789A218035B200D46F02 /* Assets.xcassets */,
 				A7F9789C218035B200D46F02 /* LaunchScreen.storyboard */,
@@ -368,7 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F97896218035B000D46F02 /* ViewController.swift in Sources */,
+				A7F978C2218038E500D46F02 /* CanvasViewController.swift in Sources */,
 				A7F97894218035B000D46F02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,13 +546,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 856QQ6N8B4;
+				DEVELOPMENT_TEAM = 2C3F7FK8C4;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abraham.Canvas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abraham.Canvass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,13 +565,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 856QQ6N8B4;
+				DEVELOPMENT_TEAM = 2C3F7FK8C4;
 				INFOPLIST_FILE = Canvas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abraham.Canvas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abraham.Canvass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
