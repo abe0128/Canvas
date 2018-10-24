@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		209D93391855A641422DD913 /* Pods_CanvasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB38E1B2D5C6600A0C27ADB0 /* Pods_CanvasUITests.framework */; };
-		69F2D230C1BDDC5613467916 /* Pods_Canvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53B1C8EC6D7624C554509D /* Pods_Canvas.framework */; };
+		69F2D230C1BDDC5613467916 /* Pods_Canvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F53B1C8EC6D7624C554509D /* Pods_Canvas.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A7F97894218035B000D46F02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F97893218035B000D46F02 /* AppDelegate.swift */; };
 		A7F97899218035B100D46F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F97897218035B100D46F02 /* Main.storyboard */; };
 		A7F9789B218035B200D46F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F9789A218035B200D46F02 /* Assets.xcassets */; };
@@ -37,11 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CD223100F3A78FA907C5B9 /* Pods-CanvasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasUITests/Pods-CanvasUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1A150C5FDEE276C7E4D86940 /* Pods-CanvasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasTests/Pods-CanvasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A0E0EBC057479AA3A7F5E6C /* Pods-CanvasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasTests/Pods-CanvasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F53B1C8EC6D7624C554509D /* Pods_Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69C0669F69B9B004F2097349 /* Pods-Canvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canvas/Pods-Canvas.debug.xcconfig"; sourceTree = "<group>"; };
-		830C5C9F1E4D3147F2E6CB7E /* Pods-Canvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Canvas/Pods-Canvas.release.xcconfig"; sourceTree = "<group>"; };
+		239F2437930C97EDB145D056 /* Pods-CanvasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasUITests/Pods-CanvasUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A7F97890218035B000D46F02 /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F97893218035B000D46F02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7F97898218035B100D46F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,10 +53,12 @@
 		A7F978B3218035B200D46F02 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		A7F978B5218035B200D46F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F978C1218038E500D46F02 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
-		D0581B7062B3FBAEC72CA6AB /* Pods-CanvasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasTests/Pods-CanvasTests.release.xcconfig"; sourceTree = "<group>"; };
+		C142DB6979F9E8ED07EBB1AC /* Pods-CanvasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasTests/Pods-CanvasTests.release.xcconfig"; sourceTree = "<group>"; };
+		D076753D5DDA82E4B474E9FE /* Pods-CanvasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasUITests/Pods-CanvasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA483DFE6B7B42EB3B1F0183 /* Pods-Canvas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Canvas/Pods-Canvas.release.xcconfig"; sourceTree = "<group>"; };
 		EB38E1B2D5C6600A0C27ADB0 /* Pods_CanvasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0399EC52C3F147556AF004C /* Pods_CanvasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC1784EB15696D3CC2F4302 /* Pods-CanvasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasUITests/Pods-CanvasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FFF01340693D612222C6AD97 /* Pods-Canvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canvas/Pods-Canvas.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,15 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2ADE5B1C96637172969FDFBF /* Pods */ = {
+		340FDF9AC53F04ACABFBA37C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				69C0669F69B9B004F2097349 /* Pods-Canvas.debug.xcconfig */,
-				830C5C9F1E4D3147F2E6CB7E /* Pods-Canvas.release.xcconfig */,
-				1A150C5FDEE276C7E4D86940 /* Pods-CanvasTests.debug.xcconfig */,
-				D0581B7062B3FBAEC72CA6AB /* Pods-CanvasTests.release.xcconfig */,
-				00CD223100F3A78FA907C5B9 /* Pods-CanvasUITests.debug.xcconfig */,
-				FAC1784EB15696D3CC2F4302 /* Pods-CanvasUITests.release.xcconfig */,
+				FFF01340693D612222C6AD97 /* Pods-Canvas.debug.xcconfig */,
+				DA483DFE6B7B42EB3B1F0183 /* Pods-Canvas.release.xcconfig */,
+				1A0E0EBC057479AA3A7F5E6C /* Pods-CanvasTests.debug.xcconfig */,
+				C142DB6979F9E8ED07EBB1AC /* Pods-CanvasTests.release.xcconfig */,
+				D076753D5DDA82E4B474E9FE /* Pods-CanvasUITests.debug.xcconfig */,
+				239F2437930C97EDB145D056 /* Pods-CanvasUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -109,8 +109,8 @@
 				A7F978A7218035B200D46F02 /* CanvasTests */,
 				A7F978B2218035B200D46F02 /* CanvasUITests */,
 				A7F97891218035B000D46F02 /* Products */,
-				2ADE5B1C96637172969FDFBF /* Pods */,
 				DC222A31488824A911A21969 /* Frameworks */,
+				340FDF9AC53F04ACABFBA37C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -542,7 +542,7 @@
 		};
 		A7F978B9218035B200D46F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C0669F69B9B004F2097349 /* Pods-Canvas.debug.xcconfig */;
+			baseConfigurationReference = FFF01340693D612222C6AD97 /* Pods-Canvas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,7 +561,7 @@
 		};
 		A7F978BA218035B200D46F02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 830C5C9F1E4D3147F2E6CB7E /* Pods-Canvas.release.xcconfig */;
+			baseConfigurationReference = DA483DFE6B7B42EB3B1F0183 /* Pods-Canvas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,7 +580,7 @@
 		};
 		A7F978BC218035B200D46F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A150C5FDEE276C7E4D86940 /* Pods-CanvasTests.debug.xcconfig */;
+			baseConfigurationReference = 1A0E0EBC057479AA3A7F5E6C /* Pods-CanvasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -602,7 +602,7 @@
 		};
 		A7F978BD218035B200D46F02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0581B7062B3FBAEC72CA6AB /* Pods-CanvasTests.release.xcconfig */;
+			baseConfigurationReference = C142DB6979F9E8ED07EBB1AC /* Pods-CanvasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -624,7 +624,7 @@
 		};
 		A7F978BF218035B200D46F02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00CD223100F3A78FA907C5B9 /* Pods-CanvasUITests.debug.xcconfig */;
+			baseConfigurationReference = D076753D5DDA82E4B474E9FE /* Pods-CanvasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -645,7 +645,7 @@
 		};
 		A7F978C0218035B200D46F02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAC1784EB15696D3CC2F4302 /* Pods-CanvasUITests.release.xcconfig */;
+			baseConfigurationReference = 239F2437930C97EDB145D056 /* Pods-CanvasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
